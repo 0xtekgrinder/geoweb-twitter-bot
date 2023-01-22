@@ -15,7 +15,7 @@
                 "type": "address"
             }
         ],
-        "name": "ParcelClaimed",
+        "name": "ParcelClaimedV2",
         "type": "event"
     }
 ]

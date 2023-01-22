@@ -9,7 +9,7 @@ const createEtherEventListener = (
   eventName: string,
   listener: Listener,
 ) => {
-  addresses.forEach((address) => {
+  addresses.forEach(async (address) => {
     try {
       const contract = new Contract(address, abi, provider);
       contract.on(eventName, listener);

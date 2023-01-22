@@ -3,8 +3,8 @@ import PCOLicenseClaimerFacet from './abi/PCOLicenseClaimerFacet.json';
 import onNewClaim from './listeners/onNewClaim';
 
 createEtherEventListener(
-  ['0xBA1231785A7b4AC0E8dC9a0403938C2182cE4A4e'],
+  ['0xba1231785a7b4ac0e8dc9a0403938c2182ce4a4e'],
   PCOLicenseClaimerFacet,
-  'ParcelClaimed',
+  'ParcelClaimedV2',
   onNewClaim,
 );
